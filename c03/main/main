@@ -1,0 +1,48 @@
+
+0------------------------------------------------------------------------------------
+int    main()
+{
+    printf("%d", ft_strcmp("furkan", "furkan1"));
+  }
+
+1------------------------------------------------------------------------------------
+int    main()
+{
+    printf("%d", ft_strncmp("furkan", "furkan1", 8));
+}
+
+2-------------------------------------------------------------------------------
+
+int    main()
+{
+    char src[] = "furkan";
+    char dest[] = "gunay ";
+    printf("%s", ft_strcat(dest, src));
+}
+
+3-------------------------------------------------------------------------------
+
+int    main()
+{
+    char src[] = "furkan";
+    char dest[] = "13 ";
+    printf("%s", ft_strncat(dest, src, 2));
+}
+
+4-------------------------------------------------------------------------------
+int    main()
+{
+    char str[] = "furkan yüzme bilmiyor ama havuzu geçti";
+    char find[] = "ama";
+    printf("%s", ft_strstr(str, find));
+}
+5-------------------------------------------------------------------------------
+
+
+int main (void)
+{
+    char src[] = "Born to code";
+    char dest [] = "1337 42";
+    printf("%i \n", ft_strlcat(dest, src, 20));
+    printf("%s \n", dest);
+}
